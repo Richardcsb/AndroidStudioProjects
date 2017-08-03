@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/miketurtle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mike"
+        android:onClick="chooseTurtle"/>
+
+    <RadioButton
+        android:id="@+id/donturtle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="don"
+        android:onClick="chooseTurtle"/>
+
+    <RadioButton
+        android:id="@+id/leoturtle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="leo"
+        android:onClick="chooseTurtle"/>
+
+    <RadioButton
+        android:id="@+id/raphturtle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="raph"
+        android:onClick="chooseTurtle"/>
+
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/turtleImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mike"/>
+
+    <Button
+        android:text="next"
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="login"/>
+</LinearLayout>
